@@ -10,7 +10,7 @@ import com.example.p9database.KrsApp
 fun CreationExtras.krsApp(): KrsApp =
     (this[ViewModelProvider.AndroidViewModelFactory.APPLICATION_KEY] as KrsApp)
 
-object PenyediaViewMo del{
+object PenyediaViewModel{
     val Factory = viewModelFactory {
         initializer {
             MahasiswaViewModel(krsApp().containerApp.repositoryMhs)
