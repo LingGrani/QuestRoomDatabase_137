@@ -19,3 +19,9 @@ object DestinasiUpdate: AlamatNavigasi {
     const val nimArg = "nim"
     val routeWithArgs = "$route/{$nimArg}"
 }
+
+object DestinasiInsert: AlamatNavigasi {
+    override val route: String = "Insert"
+    const val nimArg = "nim"
+    val routeWithArgs = "$route/{$nimArg}"
+}
